@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Los Simpsons</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilosimpson.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/The_Simpsons_yellow_logo.svg" alt="Los Simpsons" height="50px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Personajes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#homer">Homero</a></li>
+                <li><a class="dropdown-item" href="#">Marge</a></li>
+                <li><a class="dropdown-item" href="#">Bart</a></li>
+                <li><a class="dropdown-item" href="#">Lisa</a></li>
+                <li><a class="dropdown-item" href="#">Maggie</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Abuelo</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Encontrar" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Personajes</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/slide-1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="text-start text-dark fs-1">La familia más querida querida</h2>
+            <p class="text-start text-dark fs-3">Creada por Matt Groening</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/slide-2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="text-start text-dark fs-1">Bart</h2>
+            <p class="text-start text-dark fs-1">Hay caramba!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/slide-3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 d-flex flex-column justify-content-center p-4">
+          <img src="assets/homer.png" alt="Homero" width="500px" id="homer">
+          <article>
+            <p>Homero es homero Homero es homero Homero es homero Homero es homeroHomero es homeroHomero es homeroHomero es homero Homero es homero Homero es homero Homero es homero Homero es homeroHomero es homeroHomero es homeroHomero es homero Homero es homero Homero es homero Homero es homero Homero es homeroHomero es homeroHomero es homeroHomero es homero</p>
+          </article>
+        </div>
+        <div class="col-6 p-4">
+          <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill">
+            <h2 class="text-center">Dough!</h2> <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+          </div>
+          <iframe class="p-4" width="100%" height="480px" src="https://www.youtube.com/embed/hZuPbP37fns?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <iframe class="p-4" width="100%" height="480px" src="https://www.youtube.com/embed/hZuPbP37fns?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="col-6"><div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill">
+          <h2 class="text-center">Dough!</h2> <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+          <img src="assets/homer.png" alt="Homero" width="500px">
+          <article>
+            <p>Homero es homero Homero es homero Homero es homero Homero es homeroHomero es homeroHomero es homeroHomero es homero Homero es homero Homero es homero Homero es homero Homero es homeroHomero es homeroHomero es homeroHomero es homero Homero es homero Homero es homero Homero es homero Homero es homeroHomero es homeroHomero es homeroHomero es homero</p>
+          </article>
+        </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-6 d-flex flex-column justify-content-center p-4">
+          <img src="assets/homer.png" alt="Homero" width="500px">
+          <article>
+            <p>Homero es homero Homero es homero Homero es homero Homero es homeroHomero es homeroHomero es homeroHomero es homero Homero es homero Homero es homero Homero es homero Homero es homeroHomero es homeroHomero es homeroHomero es homero Homero es homero Homero es homero Homero es homero Homero es homeroHomero es homeroHomero es homeroHomero es homero</p>
+          </article>
+        </div>
+        <div class="col-6 p-4">
+          <div class="position-relative py-2 px-4 text-bg-dark border border-dark rounded-pill">
+            <h2 class="text-center">Dough!</h2> <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1" fill="var(--bs-dark)" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+          </div>
+          <iframe class="p-4" width="100%" height="480px" src="https://www.youtube.com/embed/hZuPbP37fns?start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6"></div>
+      </div>
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6"></div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
